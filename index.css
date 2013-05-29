@@ -22,6 +22,44 @@ figcaption {											/*centers the link under the image*/
 	text-align: center;
 }
 
+div#draggable {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+}
+div#draggable div {
+	position: absolute;
+	padding: 67px 0;
+	width: 146px;
+	height: 12px;
+	border: solid 2px black;
+	text-align: center;
+	color: black;
+}
+#draggable .top {
+	top: 0;
+}
+	#draggable .top.left {
+		background-color: red;
+	}
+	#draggable .top.right {
+		background-color: yellow;
+	}
+#draggable .bottom {
+	bottom: 0;
+}
+	#draggable .bottom.left{
+		background-color: blue;
+	}
+	#draggable .bottom.right {
+		background-color: green;
+	}
+#draggable .left {
+	left: 0;
+}
+#draggable .right {
+	right: 0;
 .sites {
 	width: ;
 }
