@@ -1,0 +1,105 @@
+a:link {color: gray; text-decoration: none;}
+a:visited {color: gray; text-decoration: none;}
+a:hover {color: black; text-decoration: none; background-color: Lightgray; border-bottom: 2px solid blue;}
+a:active {color: black; text-decoration: none;}
+
+#toplink:link {color: Lightgray; text-decoration: none;}
+#toplink:visited {color: Lightgray; text-decoration: none;}
+#toplink:hover {color: Lightgray; text-decoration: none; background-color: transparent; border: transparent;}
+#toplink:active {color: Lightgray; text-decoration: none;}
+
+body {
+	margin: 0px 20%;
+	background-color: #CCCCCC;
+	background-image: url("background gray.jpg");
+	border-left: solid gray;
+	border-right: solid gray;
+}
+
+header {
+	position: relative;
+	border: solid #3385FF 1px;
+    padding: 0px 20px;
+    height: 50px;
+	font-size: 20px;
+	line-height: 0px;
+    color: Lightgray;
+    font-family: Lucida Sans Unicode;
+    font-variant: small-caps;
+    background-color: #3385FF;
+    background: radial-gradient(#2B4975, #3385FF);
+}
+
+nav {
+	font-size: 30px;
+	padding: 1px 20px;
+	background: white;
+	word-spacing: 1em;
+	text-align: right;
+}
+
+.bar {
+
+}
+
+
+.firstwords {
+	color: blue;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	margin: 0px 10px;
+}
+
+article {
+	padding: 0px 100px;
+	font-size: 20px;
+	border-top: solid gray;
+	border-bottom: solid gray;
+	line-height: 150%;
+	background: white;
+}
+
+h2 {
+	font-family: Comic Sans MS;
+}
+
+h3 {
+	font-family: Comic Sans MS;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+div {
+	background-color: white;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#america {
+	width: 100%;
+}
+
+.contact {
+	display: inline;
+	height: 20px;
+	width: 20px;
+}
+
+footer {
+	clear: both;
+	text-align: right;
+	font-variant: small-caps;
+	padding-top: 10px;
+	padding-right: 10px;
+	background: white;
+}
