@@ -1,5 +1,8 @@
 div#draggable {
-	position: relative;
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	width: 300px;
 	height: 300px;
 	border: solid 1px black;
