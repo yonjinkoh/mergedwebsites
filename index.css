@@ -1,0 +1,23 @@
+header {
+	text-align: center;
+	background: black;
+	color:#0F0;
+	padding: 20px 0;
+	margin: 0 auto 20px auto;
+}
+ul {													/*sets index names to appear side by side*/
+	list-style: none;
+}
+	ul > li {
+		float: left;
+	}
+figure {												/*sets size of link figures to websites*/
+	width: 200px;
+	margin: 20px 100px;
+}
+	figure img {										/*sets the image to be the full width of the link*/
+		width: 100%;
+	}
+figcaption {											/*centers the link under the image*/
+	text-align: center;
+}
