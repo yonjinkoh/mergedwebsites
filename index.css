@@ -21,6 +21,7 @@ figure {												/*sets size of link figures to websites*/
 figcaption {											/*centers the link under the image*/
 	text-align: center;
 }
+
 div#draggable {
 	position: relative;
 	width: 300px;
@@ -59,4 +60,6 @@ div#draggable div {
 }
 #draggable .right {
 	right: 0;
+.sites {
+	width: ;
 }
