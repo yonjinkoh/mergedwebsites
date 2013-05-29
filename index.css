@@ -1,27 +1,62 @@
+body {
+	background-color: #272822;
+	background: url("background.png");
+	background-size: cover;
+}
+
 header {
 	text-align: center;
-	background: black;
-	color:#0F0;
+	font-size: 75px;
 	padding: 20px 0;
 	margin: 0 auto 20px auto;
+	font-family: 'Sirin Stencil', cursive;
 }
-ul {													/*sets index names to appear side by side*/
-	list-style: none;
-}
-	ul > li {
-		float: left;
-	}
+
+
 figure {												/*sets size of link figures to websites*/
-	width: 200px;
-	margin: 20px 100px;
+	width: 400px;
+	margin: 10px 10px;
+	display: inline-block;
 }
-	figure img {										/*sets the image to be the full width of the link*/
-		width: 100%;
-	}
+
+figure img {
+	width: 100%;
+}
+
+
 figcaption {											/*centers the link under the image*/
 	text-align: center;
 }
 
 .sites {
-	width: ;
+	margin-right: auto;
+	margin-left: auto;
+	width: 65%;
+}
+
+.sites a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #A6E22C;
+	font-family: 'Courier', sans-serif;
+}
+
+ .whitetext {
+	color: #FFFFFF;
+}
+
+ #pink {
+	color: #F92672;
+}
+
+.blue {
+	color: #66D9EF;
+}
+
+.green {
+	color: #A6E22C;
+}
+
+.yellow {
+	color: #E6DB74;
 }
