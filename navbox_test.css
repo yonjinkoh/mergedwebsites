@@ -1,0 +1,62 @@
+div#draggable {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+	z-index:10000;
+}
+div#draggable div {
+	position: absolute;
+	padding: 67px 0;
+	width: 146px;
+	height: 12px;
+	border: solid 2px black;
+	text-align: center;
+	color: black;
+}
+#draggable .top {
+	top: 0;
+}
+#draggable .left {
+	left: 0;
+}
+#draggable .right {
+	right: 0;
+}
+#draggable .bottom {
+	bottom: 0;
+}
+	#draggable .top.left {
+		background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 325, color-stop(0%, rgba(255, 0, 0, 0.9)), color-stop(92%, rgba(0, 0, 0, 0.9)));		
+		background-image: -webkit-radial-gradient(center center, 100% 100%, rgba(255, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -moz-radial-gradient(center center, 100% 100%, rgba(255, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -ms-radial-gradient(center center, 100% 100%, rgba(255, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -o-radial-gradient(center center, 100% 100%, rgba(255, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: radial-gradient(100% 100% at center center, rgba(255, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+	}	
+	#draggable .top.right {
+		background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 325, color-stop(0%, rgba(255, 69, 0, 0.9)), color-stop(92%, rgba(0, 0, 0, 0.9)));
+		background-image: -webkit-radial-gradient(center center, 100% 100%, rgba(255, 69, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -moz-radial-gradient(center center, 100% 100%, rgba(255, 69, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -ms-radial-gradient(center center, 100% 100%, rgba(255, 69, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -o-radial-gradient(center center, 100% 100%, rgba(255, 69, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: radial-gradient(100% 100% at center center, rgba(255, 69, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+	}
+	#draggable .bottom.left{
+		background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 325, color-stop(0%, rgba(0, 0, 255, 0.9)), color-stop(92%, rgba(0, 0, 0, 0.9)));
+		background-image: -webkit-radial-gradient(center center, 100% 100%, rgba(0, 0, 255, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -moz-radial-gradient(center center, 100% 100%, rgba(0, 0, 255, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -ms-radial-gradient(center center, 100% 100%, rgba(0, 0, 255, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -o-radial-gradient(center center, 100% 100%, rgba(0, 0, 255, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: radial-gradient(100% 100% at center center, rgba(0, 0, 255, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+	}	
+	#draggable .bottom.right {
+		background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 325, color-stop(0%, rgba(0, 255, 0, 0.9)), color-stop(92%, rgba(0, 0, 0, 0.9)));
+		background-image: -webkit-radial-gradient(center center, 100% 100%, rgba(0, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -moz-radial-gradient(center center, 100% 100%, rgba(0, 255, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -ms-radial-gradient(center center, 100% 100%, rgba(0, 255, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: -o-radial-gradient(center center, 100% 100%, rgba(0, 255, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+		background-image: radial-gradient(100% 100% at center center, rgba(0, 255, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 92%);
+	}
